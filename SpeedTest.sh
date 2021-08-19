@@ -107,11 +107,14 @@ speed_test(){
 }
 
 preinfo() {
-	echo "———————————————————SpeedTest 网络连接速度测试 ——————————————————"
+	echo "  "
+	echo "  "
+	echo "——————————————— SpeedTest 网络连接速度测试 ——————————————————"
 	echo "       bash <(curl -Lso- https://git.io/SpeedTest)"
 	echo "       全部节点列表:  https://git.io/SpeedTestList"
 	echo "       节点更新: 2021/08/18  | 脚本更新: 2021/08/18"
 	echo "——————————————————————————————————————————————————————————"
+	echo "  "
 }
 
 selecttest() {
